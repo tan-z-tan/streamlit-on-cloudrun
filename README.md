@@ -30,5 +30,5 @@ gcloud builds submit --project ${GCP_PROJECT} --tag gcr.io/${GCP_PROJECT}/stream
 - Deploy app
 
 ```
-gcloud beta run deploy --project ${GCP_PROJECT} --image gcr.io/${GCP_PROJECT}/streamlit-on-cloudrun
+gcloud beta run deploy streamlit-on-cloudrun --project ${GCP_PROJECT} --region asia-northeast1 --image gcr.io/${GCP_PROJECT}/streamlit-on-cloudrun --memory 2G --max-instances 1
 ```
