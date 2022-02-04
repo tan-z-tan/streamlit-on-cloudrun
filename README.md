@@ -9,6 +9,11 @@ This is just a test application.
 Cloudrun distributes its requests to multiple instances by default. Because of that, Streamlit's FileUploader may cause a 404.
 To avoid this, set max-instance to 1.
 
+## Try it
+https://streamlit-on-cloudrun-wnj6lnxzja-an.a.run.app/
+
+(If my GCP bills go up, I might just delete it🤔)
+
 ## Prepare mdoel file
 
 Download `u2netp.onnx` file from [here](https://drive.google.com/uc?id=1tNuFmLv0TSNDjYIkjEdeH1IWKQdUA4HR) and put it in `model_files/`.
